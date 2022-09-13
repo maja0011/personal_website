@@ -5,26 +5,28 @@ import '../css/header.css';
 
 function Header() {
     return(
+        <div className='headerContainer'>
         <Navbar >
-            <Container>
+            
             <NavbarBrand className="navbarBrand" >
                 <Link to= {'/'}><Button className="brandButton">MAJARO TOLU</Button></Link>
             </NavbarBrand>
             <div className="headerList">
             
-            <NavLink  to="/about" >
+            <NavLink  to="/about" activeClassName="active" >
                 <Button className="headerButton">About</Button>{''}
             </NavLink>
            
             
-            <NavLink  to="/projects" >
+            <NavLink  to="/projects" activeClassName="active" >
             <Button className="headerButton">Projects</Button>{''}
             </NavLink>
             
             
             </div>
-            </Container>
+           
         </Navbar>
+        </div>
     );
 }
 export default Header;

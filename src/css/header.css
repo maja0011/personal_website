@@ -31,10 +31,10 @@
   background-color: #e7feff;
   color: #446ccf;
 }
-.container {
+.headerContainer {
   background-color: steelblue;
-  overflow: hidden;
-  padding: 0px 0px;
+  min-height: 10vh;
+  
 }
 .headerButton {
   background-color: white;
