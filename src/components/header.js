@@ -1,32 +1,31 @@
-import { Navbar,Container, NavbarBrand, Button} from 'react-bootstrap';
 import { NavLink, Link } from 'react-router-dom';
 import '../css/header.css';
 
 
 function Header() {
     return(
-        <div className='headerContainer'>
-        <Navbar >
+        <nav className='headerContainer'>
+       
             
-            <NavbarBrand className="navbarBrand" >
-                <Link to= {'/'}><Button className="brandButton">MAJARO TOLU</Button></Link>
-            </NavbarBrand>
+            <div className="navbarBrand" >
+                <Link to= {'/'} className='homeLink'>MAJARO TOLU</Link>
+            </div>
             <div className="headerList">
             
-            <NavLink  to="/about" activeClassName="active" >
-                <Button className="headerButton">About</Button>{''}
+            <NavLink  to="/about" className ='componentLink'activeClassName="active" >
+                About{''}
             </NavLink>
            
             
-            <NavLink  to="/projects" activeClassName="active" >
-            <Button className="headerButton">Projects</Button>{''}
+            <NavLink  to="/projects"className ='componentLink' activeClassName="active" >
+            Projects{''}
             </NavLink>
             
             
             </div>
            
-        </Navbar>
-        </div>
+        
+        </nav>
     );
 }
 export default Header;
