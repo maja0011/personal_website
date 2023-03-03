@@ -1,0 +1,13 @@
+.homepageBody {
+    background-color: blue;
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headshotImage {
+    padding-right: 20px;
+}

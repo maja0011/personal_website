@@ -1,8 +1,11 @@
-
+import '../css/homepage.css';
+import personal from '../images/personal.png';
 
 function Homepage () {
     return (
-       <h1>theBody</h1>
+       <div className="homepageBody">
+        <img src ={personal} className='headshotImage' alt='Headshot'/>
+       </div>
 
     );
 

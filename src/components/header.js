@@ -1,31 +1,19 @@
 import { NavLink, Link } from 'react-router-dom';
 import '../css/header.css';
+import CTA from './CTA'
 
 
 function Header() {
     return(
-        <nav className='headerContainer'>
-       
-            
-            <div className="navbarBrand" >
-                <Link to= {'/'} className='homeLink'>MAJARO TOLU</Link>
+        <header>
+            <div className="container header__container">
+
+                <h5>Hello I'm</h5>
+                <h1>Majaro Adebayo</h1>
+                <h5 className='text-light'>Junior Developer</h5>
+                <CTA/>
             </div>
-            <div className="headerList">
-            
-            <NavLink  to="/about" className ='componentLink'activeClassName="active" >
-                About{''}
-            </NavLink>
-           
-            
-            <NavLink  to="/projects"className ='componentLink' activeClassName="active" >
-            Projects{''}
-            </NavLink>
-            
-            
-            </div>
-           
-        
-        </nav>
+        </header>
     );
 }
 export default Header;
