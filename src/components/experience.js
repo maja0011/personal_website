@@ -1,7 +1,7 @@
 import '../css/homepage.css';
 import personal from '../images/personal.png';
 
-function Homepage () {
+function Experience () {
     return (
        <div>
         homepage
@@ -11,4 +11,4 @@ function Homepage () {
 
 }
 
-export default Homepage;
+export default Experience;
