@@ -1,8 +1,8 @@
 import { NavLink, Link } from 'react-router-dom';
 import '../css/header.css';
-import CTA from './CTA'
-import IMG from '../images/me.png'
-import {FaGithub, FaLinkedin} from "react-icons/fa"
+import CTA from './CTA';
+import IMG from '../images/me.png';
+import {FaGithub, FaLinkedin} from "react-icons/fa";
 
 
 function Header() {
