@@ -1,5 +1,5 @@
 
-import ME from '../images/me-about.jpg'; 
+import ME from '../images/me.JPG'; 
 import { FaAward } from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -28,11 +28,7 @@ function About () {
                             <small>2+ Years Working</small>
                         </article>
 
-                        <article className='about__card'>
-                            <FiUsers className='about__icon'/>
-                            <h5>Clients</h5>
-                            <small>2+ Worldwide</small>
-                        </article>
+                        
 
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon'/>
@@ -41,8 +37,9 @@ function About () {
                         </article>
                     </div>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    I'm Adebayo, a recent Computer Engineering graduate from Algonquin College with over 2 years work experience in the IT industry - web developer, software developer, IT technician.<br /> <br />
+                    I have a passion for web development and I enjoy working with different technologies stacks . <br /> I am a board game/ video game enthusiast and I like to keep up with news on new industry technologies.
+                    </p> 
 
                     <a href='#contact' className='btn btn-primary'>Let's Talk</a>
 
