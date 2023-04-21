@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/personal_website/static/css/main.b55ab963.css",
+    "main.js": "/personal_website/static/js/main.7075606a.js",
+    "static/js/787.bbe01249.chunk.js": "/personal_website/static/js/787.bbe01249.chunk.js",
+    "static/media/header.jpg": "/personal_website/static/media/header.3cd1d54bec1647b4839b.jpg",
+    "static/media/me.JPG": "/personal_website/static/media/me.19cb09de1c62c0a18c0b.JPG",
+    "static/media/home.jpg": "/personal_website/static/media/home.a1571b3c5327f1a7eb0c.jpg",
+    "static/media/Adebayo_Majaro_Resume.pdf": "/personal_website/static/media/Adebayo_Majaro_Resume.3be2477a004ab6c8e52e.pdf",
+    "index.html": "/personal_website/index.html",
+    "main.b55ab963.css.map": "/personal_website/static/css/main.b55ab963.css.map",
+    "main.7075606a.js.map": "/personal_website/static/js/main.7075606a.js.map",
+    "787.bbe01249.chunk.js.map": "/personal_website/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b55ab963.css",
+    "static/js/main.7075606a.js"
+  ]
+}
