@@ -1,6 +1,6 @@
 import '../css/projects.css'
 import OldWeb from '../images/home.jpg';
-import HairWeb from '../images/avatar1.jpg'
+import imdb_img from '../images/IMDB.jpg'
 
 
 function Projects () {
@@ -23,12 +23,12 @@ function Projects () {
 
                     <article className='projects__item'>
                         <div className='projects__item-image'>
-                            <img src={HairWeb} alt="old webpage"/>
+                            <img src={imdb_img} alt="imdb clone project"/>
                         </div>
-                        <h3>This is a project item title</h3>
+                        <h3>IMDB clone project</h3>
                         <div className='projects__item-cta'>
-                        <a href='https://github.com' className='btn' target='_blank'>Github</a>
-                        <a href='https://github.com/maja0011' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href='https://github.com/maja0011/imdb_clone' className='btn' target='_blank'>Github</a>
+                        <a href='https://maja0011.github.io/imdb_clone/' className='btn btn-primary' target='_blank'>Live Demo</a>
                         </div>
                     </article>
                 </div>
