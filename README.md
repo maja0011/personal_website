@@ -1,3 +1,6 @@
+#Live webpage
+https://maja0011.github.io/personal_website/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
